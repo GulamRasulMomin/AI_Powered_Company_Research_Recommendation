@@ -1,0 +1,63 @@
+Task : Build an AI-Powered Research & Recommendation Agent
+
+Create a system that takes the name of a company as input and generates a structured intelligence report.
+
+Example Input : 
+    ● Adani Realty
+    ● Sobha
+    ● Prestige Group
+    ● Brigade Group
+    ● Puravankara
+    ● Any other company
+
+The System Should Generate : 
+
+    1. Company Overview
+
+        Provide a concise summary of:
+            ● What the company does
+            ● Industry
+            ● Scale
+            ● Geographic presence
+
+    2. Key Business Information
+
+        Identify:
+            ● Major offerings
+            ● Recent developments
+            ● Expansion plans
+            ● Important public information
+
+    3. Potential Business Challenges
+
+        Based on your research and reasoning, identify:
+            ● Possible challenges
+            ● Operational bottlenecks
+            ● Sales challenges
+            ● Customer experience challenges
+
+        Explain your reasoning.
+
+    4. AI Opportunities
+
+        Suggest where AI can help the company.
+
+        Examples:
+            ● Automation
+            ● Customer engagement
+            ● Sales
+            ● Operations
+            ● Analytics
+            ● Document processing
+
+        Do not give generic answers.
+        Provide company-specific suggestions.
+
+    5. Personalized Pitch
+
+        Assume you are meeting the CEO of the company.
+
+        Create a one-page personalized pitch explaining:
+            ● Why you reached out
+            ● What opportunities you identified
+            ● What AI solutions you would recommend

@@ -1,4 +1,4 @@
-# AI-Powered Compny Research Recommendation
+# AI-Powered Company Research Recommendation
 
 A Streamlit application that turns a company name into a structured research and sales-intelligence brief. It combines web search through Tavily with a Groq-hosted language model and a LangGraph workflow.
 

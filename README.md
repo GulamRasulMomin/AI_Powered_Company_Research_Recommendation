@@ -83,6 +83,6 @@ The language model is configured in `llm.py` as `openai/gpt-oss-120b` through Gr
     └── personalized_pitch.py
 ```
 
-## Notes
+## Project Demo video link
 
-The generated report is based on publicly available search results and model-generated analysis. Review the sources and recommendations before using the output for business decisions.
+https://drive.google.com/file/d/1AsDuWvfnOD9eRJooW0iXEolLVn6kiquz/view?usp=sharing

@@ -63,25 +63,7 @@ The LangGraph workflow starts the company overview and business information rese
 2. AI opportunities
 3. A personalized pitch
 
-The language model is configured in `llm.py` as `openai/gpt-oss-120b` through Groq. Web search is configured in `web_search.py` through Tavily.
-
-## Project Structure
-
-```text
-.
-├── app.py                         # Streamlit user interface
-├── graph.py                       # LangGraph workflow
-├── llm.py                         # Groq LLM configuration
-├── state.py                       # Shared research state
-├── web_search.py                  # Tavily search helper
-├── requirement.txt                # Python dependencies
-└── agents/                        # Research workflow nodes
-    ├── ai_opportunities.py
-    ├── business_challenges.py
-    ├── business_information.py
-    ├── company_overview.py
-    └── personalized_pitch.py
-```
+The language model is configured in `llm.py` as `openai/gpt-oss-120b` through Groq and Web search through Tavily.
 
 ## Project Demo video link
 

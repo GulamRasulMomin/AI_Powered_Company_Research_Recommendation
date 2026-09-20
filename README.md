@@ -1,8 +1,16 @@
 # AI-Powered Company Research Recommendation
 
-A Streamlit application that turns a company name into a structured research and sales-intelligence brief. It combines web search through Tavily with a Groq-hosted language model and a LangGraph workflow.
+I developed an AI-powered research agent that takes a company name as input, searches publicly available information, analyzes the company's business, identifies potential challenges, finds company-specific AI opportunities, and generates a personalized CEO-ready pitch.
 
-## Features
+Before approaching a company for an AI solution, we need to understand its business, current activities, challenges, and possible areas where AI can provide value.
+The main problems were:
+   -	Manually researching a company takes a lot of time.
+   -	Information is scattered across different web sources.
+   -	Generic AI recommendations are not useful for a specific company.
+   -	It is difficult to identify business challenges from raw information.
+   -	A sales team needs a personalized pitch based on the company's actual business situation.
+
+I solved this problem by creating an AI research and recommendation workflow using LangGraph. When the user enters a company name, it generate :
 
 - Company overview
 - Current business information
@@ -10,6 +18,15 @@ A Streamlit application that turns a company name into a structured research and
 - Practical AI opportunities
 - Personalized, CEO-ready pitch
 - Interactive report sections in a Streamlit interface
+
+## Tech Stack
+
+- Streamlit – user interface
+- LangGraph – workflow orchestration
+-	LangChain – LLM integration
+-	LLM – Groq hosted  model : openai/gpt-oss-120b
+-	Tavily – web search
+
 
 ## Requirements
 
@@ -56,6 +73,12 @@ streamlit run app.py
 Open the local URL printed by Streamlit, enter a company name, and select **Generate intelligence report**.
 
 ## How It Works
+
+The final system allows users to enter company name. The system researches the company and can identify its real-estate operations, offerings, expansion activities, and publicly available business information.
+
+It then analyzes this information to identify possible challenges and recommends AI solutions such as AI-powered customer engagement, sales lead qualification, document processing, or operational analytics, depending on the company's specific situation.
+
+Finally, it generates a CEO-ready pitch explaining why the company was selected, which opportunities were identified, and how AI could address them.
 
 The LangGraph workflow starts the company overview and business information research in parallel. It then uses those results to generate:
 
